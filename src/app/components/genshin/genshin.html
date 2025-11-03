@@ -1,0 +1,26 @@
+<h1>Personajes de Genshin</h1>
+<ul>
+    @for (char of chars; track $index) {
+        <h2>
+            {{char.name}}
+        </h2>
+        <h3>
+            {{char.title}}
+        </h3>
+        <li>
+            Rareza: {{char.rarity}} estrellas
+        </li>
+        <li>
+            Vision: {{char.vision}}
+        </li>
+        <li>
+            Arma: {{char.weapon}}
+        </li>
+        <li>
+            Género: {{char.gender}}
+        </li>
+        <li>
+            Nación: {{char.nation}}
+        </li>
+    }
+</ul>
