@@ -4,7 +4,6 @@ export interface Genshin {
     vision: string;
     gender: string;
     nation: string;
-
     rarity: number;
     weapon: string;
 }
